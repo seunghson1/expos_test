@@ -1,0 +1,14 @@
+angular.module('config', [])
+  .constant('config',
+  {
+    prod: {
+      region: 'us-east-1',
+      upload_bucket_name: 'expostest-s3upload-qqq3ir79kl1i',
+      identity_pool_id: 'us-east-1:a83774a0-a131-424d-9f0a-269042a1d46a',
+      face_collection: 'rekognition-expostest-go',
+      ddb_table: 'rekognition-demo-go'
+
+    }
+  }
+  )
+  ;
